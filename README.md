@@ -1,9 +1,6 @@
 # Spam_Classifier_ML
 A simple Streamlit app for spam message detection using Machine Learning.
 
-
-Great! Here's a **complete, ready-to-use `README.md`** for your **Streamlit + Machine Learning Spam Detector** project:
-
 ---
 # 📢 Spam Detector with Streamlit and Machine Learning
 
