@@ -34,16 +34,15 @@ A simple and interactive **Spam Message Detection** web app built using **Stream
 ## 📂 Project Structure
 
 ```
-
 Spam_Classifier_ML/
 ├── app.py              # Main Streamlit application
 ├── model.pkl           # Trained ML model
 ├── vectorizer.pkl      # Saved TF-IDF vectorizer
 ├── requirements.txt    # Python dependencies
+├── Dockerfile          # Docker build instructions
 ├── README.md           # Project overview
-└── spam\_classifier\_ml/ 
-
-````
+└── spam_classifier_ml/ 
+```
 
 ---
 
@@ -54,7 +53,7 @@ Spam_Classifier_ML/
    ```bash
    git clone https://github.com/your-username/spam-detector-streamlit.git
    cd spam-detector-streamlit
-````
+```
 
 2. **Install Dependencies**
 
@@ -133,6 +132,28 @@ This project is for educational purposes. Feel free to modify and use as needed.
 ## ❤️ Acknowledgements
 
 Thanks to the open-source community for the tools and libraries that made this project possible.
+
+---
+
+## 🐳 Run with Docker
+
+You can containerize and run this app using Docker:
+
+1. **Build the Docker image**
+
+   ```bash
+   docker build -t spam-classifier-app .
+   ```
+
+2. **Run the Docker container**
+
+   ```bash
+   docker run -p 8501:8501 spam-classifier-app
+   ```
+
+3. **Access the app**
+
+   Open your browser and go to [http://localhost:8501](http://localhost:8501)
 
 ---
 
